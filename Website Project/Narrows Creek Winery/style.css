@@ -1,0 +1,11 @@
+body {
+    background-color: #800020;
+    color: white}
+            div.a {font-family: "Lucida Handwriting";
+            font-size: 45px;
+            word-spacing: 100px;
+            text-indent: 250px;
+            }
+            div.b{font-family: "Helvetica";}
+            p.solid {border-style: solid; width: 65px;
+            font-size: 45px;}

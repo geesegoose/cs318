@@ -1,7 +1,18 @@
-div.a {font-size: 25px;}
-div.b {word-spacing: 200px;
-text-indent: 400px;
-font-size: 45px;}  
-div.c {font-size: 25px;
-text-indent: 350px;
-word-spacing: 695px}
+div.a {
+    font-size: 25px;}
+div.b {
+    word-spacing: 200px;
+    text-indent: 400px;
+    font-size: 45px;}  
+div.c {
+    font-size: 25px;
+    text-indent: 350px;
+    word-spacing: 695px}
+div.d {
+    font-size: 35px;}
+div.e {
+    font-size: 25px;}
+div.f {
+    font-size: 35px;
+    text-indent: 75px;}
+div.g {font-size: 25px;}
