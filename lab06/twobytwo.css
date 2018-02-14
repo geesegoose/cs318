@@ -1,2 +1,2 @@
 .square {width: 100px; height: 100px; background-color: blueviolet; display: inline-block;}
-#topright{display: red}
+#highlighted{background-color: orange; border-width: 10px; border-style: groove; border-color: black}

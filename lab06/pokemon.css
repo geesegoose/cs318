@@ -1,0 +1,4 @@
+#pokemon1 {width: 200px; display: inline-block; border-style: dotted; border-color: yellow; border-radius: 10%}
+.card img{width: 100%;}
+.card p{font-family: sans-serif;}
+.name { text-align: center; font-weight: 800; }
