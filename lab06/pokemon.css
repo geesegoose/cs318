@@ -20,63 +20,35 @@
 #pokemon1 {
     width: 200px;
     display: inline-block;
-    border-style: none;
-    border-color: yellow;
-    border-radius: 10%;
     background-color: yellowgreen
 }
 
 #pokemon2 {
     width: 200px;
     display: inline-block;
-    border-style: none;
-    border-color: greenyellow;
     background-color: greenyellow;
-    border-radius: 10%;
 }
 
 #pokemon3 {
     width: 200px;
     display: inline-block;
-    border-style: none;
-    border-color: cadetblue;
     background-color: cadetblue;
-    border-radius: 10%;
 }
 
 #pokemon4 {
     width: 200px;
     display: inline-block;
-    border-style: none;
-    border-color: mediumslateblue;
     background-color: mediumslateblue;
-    border-radius: 10%;
 }
 
 #pokemon5 {
     width: 200px;
     display: inline-block;
-    border-style: none;
-    border-color: slateblue;
     background-color: slateblue;
-    border-radius: 10%;
 }
 
 #pokemon6 {
     width: 200px;
     display: inline-block;
-    border-style: none;
-    border-color: blue;
     background-color: blue;
-    border-radius: 10%;
-}
-
-.card {
-    width: 200px;
-    display: inline-block;
-    border-style: none;
-    border-color: black;
-    border-width: 5px;
-    border-radius: 6px;
-    vertical-align: top;
 }
