@@ -1,0 +1,14 @@
+body{
+    background-color: purple;
+}
+h3{
+    font-size: 24pt;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 4px 1px 5px #000000;
+}
+.answer{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:black;
+    font-size: 18pt;
+}
