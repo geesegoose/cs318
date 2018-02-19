@@ -13,7 +13,7 @@ a {
 
 h1 {
     font-size: 50px;
-    font-family: "Lucida Handwriting";
+    font-family: "Lucida Handwriting", sans-serif;
     color: whitesmoke;
     text-indent: 100px;
 }
@@ -24,7 +24,7 @@ h2 {
     color: whitesmoke;
     text-align: right;
     text-indent: 100px;
-    padding-right: px;
+    padding-right: 10px;
     word-spacing: 10px;
 }
 

@@ -1,0 +1,46 @@
+body{
+    background-color: lightgray;
+}
+.innerbox{
+    box-sizing: border-box;
+    display: inline-block;
+}
+.stamp{
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-position: center;
+    margin: 10px;
+    border-style: dashed;
+    border-color: green;
+    border-width: 4px;
+    box-shadow: 5px 5px 10px;
+}
+
+#stamp1{
+    background-image: url(https://kids.nationalgeographic.com/explore/countries/thailand/_jcr_content/content/textimage_0/image.ngsversion.1470934972497.img.jpg);
+    background-size: 600px;
+ 
+}
+
+#stamp2{
+    background-image: url(https://kids.nationalgeographic.com/explore/countries/peru/_jcr_content/content/textimage_0/image.ngsversion.1466434252490.img.jpg);
+    background-size: 600px;
+
+}
+
+#stamp3{
+    background-image: url(https://kids.nationalgeographic.com/explore/countries/new-zealand/_jcr_content/content/textimage_0/image.ngsversion.1465848715614.img.jpg);
+    background-size: 600px;
+}
+
+#stamp4{
+    background-image: url(https://kids.nationalgeographic.com/explore/countries/switzerland/_jcr_content/content/textimage_0/image.ngsversion.1470934829939.img.jpg);
+    background-size: 600px;
+}
+img
+{
+    float:right;
+    height: 50px;
+width:50px;}
