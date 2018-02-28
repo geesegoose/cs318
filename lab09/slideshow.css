@@ -1,0 +1,35 @@
+body {
+    background-color: indigo;
+}
+
+#panel {
+    position: fixed;
+    top: 50px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    box-shadow: 0 0 55px red;
+}
+
+#picture {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.buttone {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    align-content: center;
+    top: 50%;
+    cursor: pointer;
+}
+
+#lefty {
+    left:0;
+}
+
+#righty {
+    right: 0;
+}
