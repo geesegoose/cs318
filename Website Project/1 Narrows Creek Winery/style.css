@@ -49,3 +49,8 @@ a {
     margin: 30px;
     border-spacing: 5px;
 }
+
+div.@font-face {
+    font-family: myFirstFont;
+    src: url(http://fontsgeek.com/fonts/Stephanie-Marie-JF-Regular);
+}

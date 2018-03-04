@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to left, blue, yellow, red);
+}
+
+.potato {
+    background-color: white;
+    border: 5px solid fuchsia;
+    box-shadow: 15px 15px 15px blue;
+    margin: 0 auto;
+    width: 75%;
+    height: auto;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background: linear-gradient(to bottom right, blue, red);
+}
+
+.nav {
+    font-size: 24px;
+    text-align: center;
+    word-spacing: 50px;
+}
+
+img { height: auto;
+    width: 100%;
+}
