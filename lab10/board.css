@@ -40,13 +40,23 @@ body {
     font-family: Marker;
     width: 100%;
 }
+
 @font-face {
     font-family: Marker;
     src: url(VTKSANIMAL2.ttf);
 }
-#a1{ position: relative;
-    transform: rotate(5deg);}
-#a2{position: relative;
-    transform: rotate(10deg);}
-#a3{position: relative;
-    transform: rotate(15deg);}
+
+#a1 {
+    position: relative;
+    transform: rotate(5deg);
+}
+
+#a2 {
+    position: relative;
+    transform: rotate(10deg);
+}
+
+#a3 {
+    position: relative;
+    transform: rotate(15deg);
+}
