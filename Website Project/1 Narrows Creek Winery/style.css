@@ -24,7 +24,11 @@ h2 {
     color: whitesmoke;
     text-align: right;
     text-indent: 100px;
+<<<<<<< HEAD
+    padding-right: 15px;
+=======
     padding-right: 10px;
+>>>>>>> fe38beec8083b858544276c09c2da80f9cc75180
     word-spacing: 10px;
 }
 

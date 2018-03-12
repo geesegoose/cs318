@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background-color: lightyellow;
+}
+
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    text-decoration: underline;
+    color: red;
+    text-shadow: 5px 5px 5px black;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 40px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 10px 10px 10px violet;
+    position: relative;
+}
+
+.photo:hover {
+    box-shadow: 5px 5px 10px rgb(139, 17, 133);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#dwight {
+    background-image: url(https://vignette.wikia.nocookie.net/theoffice/images/c/c5/Dwight_.jpg/revision/latest?cb=20170701082424);
+    background-repeat: no-repeat;
+    background-size: auto 350px;
+    background-position: -30px -10px;
+}
+
+#jim {
+    background-image: url(jim.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 400px;
+    background-position: -57px 0px;
+}
+
+#kevin {
+    background-image: url(https://vignette.wikia.nocookie.net/theoffice/images/b/b2/2009Kevincropped.PNG/revision/latest/scale-to-width-down/1000?cb=20170701083657);
+    background-repeat: no-repeat;
+    background-size: auto 350px;
+    background-position: -30px -35px;
+}
+
+#michael {
+    background-image: url(Michael_Scott.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 350px;
+    background-position: 10px 0px;
+}
