@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    background-color: pink;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+header {
+    background-color: gold;
+    padding: 10px;
+}
+
+nav {
+    background-color: pink;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+
+.no {
+    display: none;
+}
+
+main {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+@media (min-width: 600px) {
+    nav {
+        width: 400px;
+    }
+    main {
+        display: inline-block;
+        width: calc(100% - 400px);
+    }
+    .no {
+        display: inline;
+    }
+    li {
+        display: block;
+    }
+}
