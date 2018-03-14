@@ -32,9 +32,20 @@ nav {
     display: none;
 }
 
+aside {
+    padding: 20px;
+    font-size: 20pt;
+    background-color: aquamarine;
+    width: 100%;
+}
+
 main {
     background-color: lightblue;
     padding: 10px;
+}
+
+.poem {
+    padding-left: 70px;
 }
 
 @media (min-width: 600px) {
@@ -50,5 +61,9 @@ main {
     }
     li {
         display: block;
+    }
+    aside {
+        width: 800px;
+        float: right;
     }
 }
