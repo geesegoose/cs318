@@ -1,0 +1,15 @@
+.full {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#toast {background-image: url(https://www.telegraph.co.uk/content/dam/Food%20and%20drink/2015-11/05nov/toastfront.jpg?imwidth=1400);
+    font-size: 50px;
+color: white;}
+#butterd{background-image: url( https://i1.wp.com/farm8.staticflickr.com/7004/6528980447_908f39a2f5.jpg?resize=443%2C295);
+color: white;
+font-size: 50px;}
+#xxxtost{background-image: url(https://f4.bcbits.com/img/a4200837007_10.jpg);
+font-size: 50px;
+color: white;}
