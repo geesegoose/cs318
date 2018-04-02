@@ -2,13 +2,19 @@ html {
     height: 100%;
     width: 100%;
 }
+.image {
+    width: 30vw;
+    height: 75vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#logo {background-image: url("Silhouette Gray.png");
+    font-size: 50px;
+color: white;
+}
 
 body {
     background-color: #c6b366;
-}
-
-a {
-    color: whitesmoke;
 }
 
 h1 {
@@ -24,28 +30,23 @@ h2 {
     color: whitesmoke;
     text-align: right;
     text-indent: 100px;
-<<<<<<< HEAD
     padding-right: 15px;
-=======
-    padding-right: 10px;
->>>>>>> fe38beec8083b858544276c09c2da80f9cc75180
     word-spacing: 10px;
 }
 
-div.a {
-    font-size: 35px;
-    color: whitesmoke;
-}
-
-blockquote {
-    font-size: 35px;
-    color: whitesmoke;
-    width: 475px;
+hr {
+    background-color: black;
+    border-color: black;
+    width: 100%;
+    height: 5px;
 }
 
 a {
+    font-size: 35px;
+    color: whitesmoke;
     text-decoration: none;
     border-style: solid;
     margin: 30px;
     border-spacing: 5px;
 }
+
