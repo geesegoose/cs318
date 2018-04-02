@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: #800020;
+    background-color: #c6b366;
 }
 
 a {
@@ -48,9 +48,4 @@ a {
     border-style: solid;
     margin: 30px;
     border-spacing: 5px;
-}
-
-div.@font-face {
-    font-family: myFirstFont;
-    src: url(http://fontsgeek.com/fonts/Stephanie-Marie-JF-Regular);
 }
