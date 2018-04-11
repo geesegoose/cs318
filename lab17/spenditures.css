@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    font-size: 20pt;
+    color: white;
+    background-color: maroon;
+    font-family: sans-serif;
+    padding: 10px;
+    position: relative;
+}
+
+th:first-child {
+    text-align: left;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+td:last-child {
+    width: 7em;
+    text-align: right;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    margin-top: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+nav>ul {
+    background-color: rgb(37, 37, 148);
+    color: white;
+    list-style: none;
+    margin: 0;
+    border-top: 1px solid white;
+}
+
+nav {
+    position: relative;
+}
+
+.menu {
+    display: inline-block;
+    padding: 5px;
+    border-right: 1px solid white;
+}
+
+.menu:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+ul:first-child {
+    padding-left: 0;
+}
+
+.menu>ul {
+    position: absolute;
+    top: 100%;
+    background-color: gray;
+    margin: 0;
+    box-shadow: 0 0 5px grey;
+    width: 10em;
+    display: none;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+    display: block;
+    width: 100%;
+}
+
+.menu>ul>li:not(:last-child) {
+    border-bottom: 1px solid white;
+}
+
+.menu>ul>li:hover {
+    background-color: darkgrey;
+}
+
+.menu:hover ul {
+    display: block;
+}
+
+header>.menu {
+    visibility: hidden;
+}
+
+@media (max-width: 640px) {
+    nav {
+        visibility: hidden;
+    }
+    header>.menu {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        border-left: 1px solid white;
+        font-size: 20pt;
+    }
+    .menu>ul {
+        position: absolute;
+        right: 0;
+        font-size: 12pt;
+    }
+}
