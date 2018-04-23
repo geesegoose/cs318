@@ -5,3 +5,43 @@
     width: 100px;
     height: 100px;
 }
+header {
+    text-align: center;
+    font-size: 36pt;
+    color: coral;
+    font-family: serif;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    font-family: sans-serif;
+}
+li>a {
+    color: black;
+}
+li:hover {
+    background-color: lightcoral;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    padding: none;
+    margin: 0;
+    text-align: center;
+}
+#logo {
+    width: 100%;
+    height: auto;
+}
+main {
+    background-color: lightcoral;
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+#name>a {
+    color: coral;
+}
