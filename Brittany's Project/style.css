@@ -1,0 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+#facebook {
+    width: 100px;
+    height: 100px;
+}
