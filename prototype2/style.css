@@ -11,11 +11,13 @@ html {
     width: 100vw;
     height: 100vh;
     background-size: cover;
+    position: relative;
+    text-align: center;
 }
 
 #logo {
     background-image: url("Silhouette Gray.png");
-    font-size: 50em;
+    font-size: 20px;
     color: black;
 }
 
@@ -23,13 +25,12 @@ body {
     background-color: #c6b366;
 }
 
-h1 {
+h1 a {
     font-size: 50px;
     font-family: "Lucida Handwriting", sans-serif;
     color: black;
-    text-indent: 25px;
+    text-indent: 35px;
     text-decoration: none;
-    list-style-type: none;
 }
 
 h2 {
@@ -49,7 +50,7 @@ hr {
     height: 5px;
 }
 
- a {
+ nav a {
     font-size: 155%;
     color: white;
     text-decoration: none;
@@ -59,6 +60,10 @@ hr {
     border-color: #8e9294;
     margin: 1.5%;
     border-spacing: 10px;
+}
+ iframe {src: url("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.5886766959047!2d-90.05856778407815!3d43.448305879128846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87fd8b74ce4402af%3A0xaee8737ed00a7064!2sNarrows+Creek+Winery!5e0!3m2!1sen!2sus!4v1524496651665");
+    width: 600px;
+    height:400px;
 }
 
 .menu {
@@ -75,13 +80,17 @@ hr {
     font-size: 10pt;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1080px) {
     body {
         background-color: #c6b366;
     }
     nav a {
         font-size: 210%;
         margin: 2%;
+    }
+    h1 a {
+        font-size: 50px;
+        text-indent: 55005px;
     }
 }
 
@@ -93,16 +102,20 @@ hr {
         font-size: 155%;
         margin: 1.7%
     }
+    h1 a {
+        font-size: 55px;
+        text-indent: 5px;
+    }
 }
 
 @media (max-width: 640px) {
-    nav {
+    nav a{
         visibility: hidden;
     }
     body {
         background-color: #c6b366;
     }
-    h1 {
+    h1 a {
         font-size: 35px;
         text-indent: 5px;
     }
