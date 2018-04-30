@@ -17,7 +17,8 @@ html {
 .left {float: left;
 color: black;
 text-align: left;
-text-indent: 3em;}
+text-indent: 3em;
+font-size: 35px;}
 
 #logo {
     background-image: url("Silhouette Gray.png");
@@ -81,14 +82,20 @@ nav {
     cursor: pointer;
 }
 .pagename {
+    text-align: left;
     margin-top: 75px;
     float:left;
-    font-size: 75px;
+    font-size: 50px;
     color: black;
     text-indent: 50px;
     text-decoration: none;
+    
 }
-blockquote {clear: both;}
+footer {width: }
+blockquote {text-align: center;
+    clear: both;
+font-size: 35px;
+}
 .menu a{
     text-decoration: none;
     color: black;
@@ -131,6 +138,57 @@ blockquote {clear: both;}
         height: 400px;
     }
 }
+@media (max-width: 1024px) {
+    nav a{
+        visibility: hidden;
+    }
+    body {
+        background-color: #c6b366;
+    }
+    h1 a {
+        font-size: 35px;
+        text-indent: 5px;
+    }
+    h2 {
+        font-size: 20px;
+        font-family: "Lucida Handwriting";
+        color: black;
+        text-align: right;
+        text-indent: 100px;
+        padding-right: 15px;
+        word-spacing: 10px;
+    }
+    .menu {
+        display: block;
+    }
+    .menu ul{display: none;
+    list-style-type: none;
+padding-left: 0;
+width: 225px;}
+    .menu:active ul{display: block;}
+    .menu:focus ul{
+        display:block;
+    }
+    .left {font-size: 30px;}
+    .menu li{background-color: #8e9294;
+    border-bottom: 1px solid black;
+font-size: 20px;}
+    .menu a {border:none;}
+    .pagename {
+        text-align: left;
+        font-size: 45px;
+        color: black;
+        text-indent: 35px;
+        text-decoration: none;
+    }
+    blockquote {clear: both;}
+    iframe{
+        width: 450px;
+        height: 250px;
+    }
+    .pagename {
+        margin-top: 20px;
+}
 
 @media (max-width: 640px) {
     nav a{
@@ -167,13 +225,13 @@ width: 225px;}
     border-bottom: 1px solid black}
     .menu a {border:none;}
     .pagename {
-        float:left;
+        text-align: left;
         font-size: 35px;
-        font-family: "Lucida Handwriting", sans-serif;
         color: black;
         text-indent: 35px;
         text-decoration: none;
     }
+    .left {font-size: 20px;}
     blockquote {clear: both;}
     iframe{
         width: 450px;
