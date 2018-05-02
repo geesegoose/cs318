@@ -6,7 +6,17 @@ html {
     height: 100%;
     width: 100%;
 }
-
+.kit{clear: both;
+font-size: 25px;
+text-align: left;}
+table {text-align: center;
+margin: 0 100px;
+display: inline;
+font-size: 25px;}
+td{vertical-align: top;}
+table tr:nth-child(odd){padding-bottom: 500px;}
+.list {margin: 0 auto;}
+.wine {clear: both;}
 .image {
     width: 100vw;
     height: 100vh;
@@ -25,7 +35,8 @@ font-size: 35px;}
     font-size: 20px;
     color: black;
 }
-.right {float: right;
+#right {float: right;
+    height: 400px;
 }
 body {
     background-color: #c6b366;
@@ -157,6 +168,9 @@ font-size: 35px;
         padding-right: 15px;
         word-spacing: 10px;
     }
+    #right {float: right;
+        height: 300px;
+    }
     .menu {
         display: block;
     }
@@ -208,6 +222,9 @@ font-size: 20px;}
         text-indent: 100px;
         padding-right: 15px;
         word-spacing: 10px;
+    }
+    #right {float: right;
+        height: 200px;
     }
     .menu {
         display: block;
