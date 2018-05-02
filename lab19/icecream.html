@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ice Cream</title>
+    <link type="text/css" rel="stylesheet" href="icecream.css">
+</head>
+
+<body>
+    <form action="https://formspree.io/jberger722@email.com" method="POST">
+        <h1>Chillax Order Form</h1>
+        <label id="name">
+            <span class="left">Who are you?</span>
+            <input type="text" name="Name" class="right" id="name">
+        </label>
+        <label id="flavor">
+            <span class="left">What Flavor?</span>
+            <select size="4" name="flavor" class="right" id="flavor">
+                <option>Chocolate</option>
+                <option>Strawberry</option>
+                <option>Vanilla</option>
+                <option>Mint Chocolate Chip</option>
+            </select>
+        </label>
+        <label id="dish">
+            <span class="left">In what?</span>
+            <select size="3" name="dish" class="right" id="dish">
+                <option>Waffle</option>
+                <option>Sugar</option>
+                <option>Dish</option>
+            </select>
+        </label>
+        <label id="sprinkles">
+            <span class="left">Sprinkles?</span>
+            <input type="checkbox" name="sprinkles" class="right" id="sprinkles1">
+        </label>
+        <label id="messy">
+            <span class="left">How messy are you?</span>
+            <input type="range" name="messy" class="right" id="messy" min="0" and max="3">
+        </label>
+        <label id="order">
+            <span class="left">&nbsp;</span>
+            <input class="right" type="submit" value="Order" id="order">
+        </label>
+    </form>
+</body>
+
+</html>

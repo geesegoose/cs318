@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+form {
+    background-color: rgb(191, 231, 241);
+    width: 480px;
+    height: 500px;
+    border-radius: 5%;
+    padding: 10px;
+    font-family: sans-serif;
+    
+}
+
+.left {
+    width:150px;
+    float:left;
+    clear:left;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.right{
+    width: 300px;
+    float: left;
+    margin-bottom: 10px;
+    }
+
+
+#name {
+    width: 280px;
+    
+}
+
+#flavor{
+    width: 280px;
+  
+}
+
+#dish{
+    width: 280px;
+  
+}
+
+#sprinkles1{
+    width: 20px;  
+}
+
+
+#messy{
+    width: 280px;   
+   
+}
+
+#order{
+    width:50px;
+}
+
+
+
+
+
+
+

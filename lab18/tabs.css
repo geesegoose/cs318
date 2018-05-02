@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+.tab {
+    display: inline-block;
+    background-color: bisque;
+    width: 10em;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+    outline: none;
+    height: 30px;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
+
+.tab:focus{
+    background-color: rgb(196, 180, 160);
+}
+
+#panel0{
+    background-color: bisque;
+    display: block;
+    width: 100%;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+#parent{
+    position: relative;
+    display: inline-block;
+}
+
+.panel{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    background-color: rgb(196, 180, 160);
+    display: none;
+    width: 100%;
+}
+
+#a:focus ~ #panel1 {
+    display: block;
+}
+
+#b:focus ~ #panel2 {
+    display: block;
+}
+#c:focus ~ #panel3 {
+    display: block;
+}
