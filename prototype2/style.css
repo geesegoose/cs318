@@ -58,7 +58,8 @@ table tr:nth-child(odd) {
     font-size: 20px;
     color: black;
 }
-
+.catalog {position: relative;
+text-decoration: none;}
 #right {
     float: right;
     height: 400px;
