@@ -31,7 +31,9 @@ table tr:nth-child(odd) {
 .list {
     margin: 0 auto;
 }
-
+#left {float: left;
+height: 400px;
+width: auto;}
 .wine {
     clear: both;
     text-decoration: none;
