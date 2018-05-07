@@ -6,17 +6,36 @@ html {
     height: 100%;
     width: 100%;
 }
-.kit{clear: both;
-font-size: 25px;
-text-align: left;}
-table {text-align: center;
-margin: 0 100px;
-display: inline;
-font-size: 25px;}
-td{vertical-align: top;}
-table tr:nth-child(odd){padding-bottom: 500px;}
-.list {margin: 0 auto;}
-.wine {clear: both;}
+
+.kit {
+    clear: both;
+    font-size: 25px;
+    text-align: left;
+}
+
+table {
+    text-align: center;
+    margin: 0 100px;
+    display: inline;
+    font-size: 25px;
+}
+
+td {
+    vertical-align: top;
+}
+
+table tr:nth-child(odd) {
+    padding-bottom: 500px;
+}
+
+.list {
+    margin: 0 auto;
+}
+
+.wine {
+    clear: both;
+}
+
 .image {
     width: 100vw;
     height: 100vh;
@@ -24,20 +43,27 @@ table tr:nth-child(odd){padding-bottom: 500px;}
     position: relative;
     text-align: center;
 }
-.left {float: left;
-color: black;
-text-align: left;
-text-indent: 3em;
-font-size: 35px;}
+
+.left {
+    float: left;
+    color: black;
+    text-align: left;
+    text-indent: 3em;
+    font-size: 35px;
+}
 
 #logo {
     background-image: url("Silhouette Gray.png");
     font-size: 20px;
     color: black;
 }
-#right {float: right;
+
+#right {
+    float: right;
     height: 400px;
 }
+.drinks {font-size: 24px;}
+
 body {
     background-color: #c6b366;
 }
@@ -66,10 +92,12 @@ hr {
     width: 100%;
     height: 5px;
 }
+
 nav {
     clear: both;
 }
- nav a {
+
+nav a {
     font-size: 155%;
     color: black;
     text-decoration: none;
@@ -80,9 +108,11 @@ nav {
     margin: 1.5%;
     border-spacing: 10px;
 }
- iframe {src: url("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.5886766959047!2d-90.05856778407815!3d43.448305879128846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87fd8b74ce4402af%3A0xaee8737ed00a7064!2sNarrows+Creek+Winery!5e0!3m2!1sen!2sus!4v1524496651665");
+
+iframe {
+    src: url("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.5886766959047!2d-90.05856778407815!3d43.448305879128846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87fd8b74ce4402af%3A0xaee8737ed00a7064!2sNarrows+Creek+Winery!5e0!3m2!1sen!2sus!4v1524496651665");
     width: 800px;
-    height:600px;
+    height: 600px;
 }
 
 .menu {
@@ -92,24 +122,28 @@ nav {
     font-size: 20pt;
     cursor: pointer;
 }
+
 .pagename {
     text-align: left;
     margin-top: 75px;
-    float:left;
+    float: left;
     font-size: 50px;
     color: black;
     text-indent: 50px;
     text-decoration: none;
-    
 }
-blockquote {text-align: center;
+
+blockquote {
+    text-align: center;
     clear: both;
-font-size: 35px;
+    font-size: 35px;
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
     color: black;
 }
+
 .menu ul {
     position: fixed;
     right: 0;
@@ -131,25 +165,26 @@ font-size: 35px;
     }
 }
 
-@media (max-width: 1366px) {
+@media (min-width: 1360px) {
     body {
         background-color: #c6b366;
     }
     nav a {
-        font-size: 155%;
+        font-size: 140%;
         margin: 1.7%
     }
     h1 a {
         font-size: 55px;
         text-indent: 5px;
     }
-    iframe{
+    iframe {
         width: 600px;
         height: 400px;
     }
 }
+
 @media (max-width: 1024px) {
-    nav a{
+    nav a {
         visibility: hidden;
     }
     body {
@@ -168,25 +203,36 @@ font-size: 35px;
         padding-right: 15px;
         word-spacing: 10px;
     }
-    #right {float: right;
+    #right {
+        float: right;
         height: 300px;
     }
     .menu {
         display: block;
     }
-    .menu ul{display: none;
-    list-style-type: none;
-padding-left: 0;
-width: 225px;}
-    .menu:active ul{display: block;}
-    .menu:focus ul{
-        display:block;
+    .menu ul {
+        display: none;
+        list-style-type: none;
+        padding-left: 0;
+        width: 225px;
     }
-    .left {font-size: 30px;}
-    .menu li{background-color: #8e9294;
-    border-bottom: 1px solid black;
-font-size: 20px;}
-    .menu a {border:none;}
+    .menu:active ul {
+        display: block;
+    }
+    .menu:focus ul {
+        display: block;
+    }
+    .left {
+        font-size: 30px;
+    }
+    .menu li {
+        background-color: #8e9294;
+        border-bottom: 1px solid black;
+        font-size: 20px;
+    }
+    .menu a {
+        border: none;
+    }
     .pagename {
         text-align: left;
         font-size: 45px;
@@ -194,65 +240,80 @@ font-size: 20px;}
         text-indent: 35px;
         text-decoration: none;
     }
-    blockquote {clear: both;}
-    iframe{
+    blockquote {
+        clear: both;
+    }
+    iframe {
         width: 450px;
         height: 250px;
     }
     .pagename {
         margin-top: 20px;
-}
-
-@media (max-width: 640px) {
-    nav a{
-        visibility: hidden;
     }
-    body {
-        background-color: #c6b366;
+    @media (max-width: 640px) {
+        nav a {
+            visibility: hidden;
+        }
+        body {
+            background-color: #c6b366;
+        }
+        h1 a {
+            font-size: 35px;
+            text-indent: 5px;
+        }
+        h2 {
+            font-size: 20px;
+            font-family: "Lucida Handwriting";
+            color: black;
+            text-align: right;
+            text-indent: 100px;
+            padding-right: 15px;
+            word-spacing: 10px;
+        }
+        #right {
+            float: right;
+            height: 200px;
+        }
+        .menu {
+            display: block;
+        }
+        .menu ul {
+            display: none;
+            list-style-type: none;
+            padding-left: 0;
+            width: 225px;
+        }
+        .menu:active ul {
+            display: block;
+        }
+        .menu:focus ul {
+            display: block;
+        }
+        .menu li {
+            background-color: #8e9294;
+            border-bottom: 1px solid black
+        }
+        .menu a {
+            border: none;
+        }
+        .pagename {
+            text-align: left;
+            font-size: 35px;
+            color: black;
+            text-indent: 35px;
+            text-decoration: none;
+        }
+        .left {
+            font-size: 20px;
+        }
+        blockquote {
+            clear: both;
+        }
+        iframe {
+            width: 450px;
+            height: 250px;
+        }
+        .pagename {
+            margin-top: 20px;
+        }
     }
-    h1 a {
-        font-size: 35px;
-        text-indent: 5px;
-    }
-    h2 {
-        font-size: 20px;
-        font-family: "Lucida Handwriting";
-        color: black;
-        text-align: right;
-        text-indent: 100px;
-        padding-right: 15px;
-        word-spacing: 10px;
-    }
-    #right {float: right;
-        height: 200px;
-    }
-    .menu {
-        display: block;
-    }
-    .menu ul{display: none;
-    list-style-type: none;
-padding-left: 0;
-width: 225px;}
-    .menu:active ul{display: block;}
-    .menu:focus ul{
-        display:block;
-    }
-    .menu li{background-color: #8e9294;
-    border-bottom: 1px solid black}
-    .menu a {border:none;}
-    .pagename {
-        text-align: left;
-        font-size: 35px;
-        color: black;
-        text-indent: 35px;
-        text-decoration: none;
-    }
-    .left {font-size: 20px;}
-    blockquote {clear: both;}
-    iframe{
-        width: 450px;
-        height: 250px;
-    }
-    .pagename {
-        margin-top: 20px;
-}
