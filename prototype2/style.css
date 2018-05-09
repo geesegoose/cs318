@@ -2,11 +2,8 @@
     box-sizing: border-box;
 }
 
-html {
-    height: 100%;
-    width: 100%;
+footer{ text-align: center;
 }
-
 .kit {
     clear: both;
     font-size: 25px;
@@ -31,7 +28,13 @@ table tr:nth-child(odd) {
 .list {
     margin: 0 auto;
 }
-
+#left {float: left;
+height: 400px;
+width: auto;}
+#right {
+    float: right;
+    height: 400px;
+}
 .wine {
     clear: both;
     text-decoration: none;
@@ -44,6 +47,7 @@ table tr:nth-child(odd) {
     position: relative;
     text-align: center;
 }
+.b image {margin-left: 320px;}
 
 .left {
     float: left;
@@ -51,6 +55,7 @@ table tr:nth-child(odd) {
     text-align: left;
     text-indent: 3em;
     font-size: 35px;
+    margin-right: 10px;
 }
 
 #logo {
@@ -58,15 +63,17 @@ table tr:nth-child(odd) {
     font-size: 20px;
     color: black;
 }
+.catalog a{text-decoration: none;
+color: black;}
+.catalog { clear: both;
+display: block;}
 
-#right {
-    float: right;
-    height: 400px;
-}
 .drinks {font-size: 24px;}
 
 body {
     background-color: #c6b366;
+    margin: 0;
+    padding: 0;
 }
 
 h1 a {
@@ -90,7 +97,8 @@ h2 {
 hr {
     background-color: black;
     border-color: black;
-    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
     height: 5px;
 }
 
@@ -151,21 +159,8 @@ blockquote {
     font-size: 10pt;
     z-index: 1000;
 }
-
-@media (min-width: 1920px) {
-    body {
-        background-color: #c6b366;
-    }
-    nav a {
-        font-size: 210%;
-        margin: 2%;
-    }
-    h1 a {
-        font-size: 50px;
-        text-indent: 55005px;
-    }
-}
-
+@media(min-width: 1700px){body{    width: 1920px;
+    overflow-x: hidden;}}
 @media (min-width: 1360px) {
     body {
         background-color: #c6b366;
@@ -318,3 +313,4 @@ blockquote {
             margin-top: 20px;
         }
     }
+}
