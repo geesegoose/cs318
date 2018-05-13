@@ -159,7 +159,7 @@ blockquote {
     font-size: 10pt;
     z-index: 1000;
 }
-@media(min-width: 1700px){body{    width: 1920px;
+@media(max-width: 1700px){body{    width: 1920px;
     overflow-x: hidden;}}
 @media (min-width: 1360px) {
     body {
