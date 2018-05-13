@@ -161,7 +161,7 @@ blockquote {
 }
 @media(min-width: 1700px){body{    width: 1920px;
     overflow-x: hidden;}}
-@media (max-width: 1360px) {
+@media (min-width: 1360px) {
     body {
         background-color: #c6b366;
     }
@@ -172,6 +172,7 @@ blockquote {
     h1 a {
         font-size: 55px;
         text-indent: 5px;
+        font-family: 'Lucida Handwriting';
     }
     iframe {
         width: 600px;
