@@ -160,7 +160,8 @@ blockquote {
     z-index: 1000;
 }
 @media(min-width: 1700px){body{    width: 1920px;
-    overflow-x: hidden;}}
+    overflow-x: hidden;}
+h1 a{font-family: 'Lucida Handwriting';}}
 @media (min-width: 1360px) {
     body {
         background-color: #c6b366;
