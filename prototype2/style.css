@@ -228,7 +228,73 @@ h1 a{font-family: 'Lucida Handwriting';}}
     .pagename {
         margin-top: 20px;
     }
-    @media (max-width: 640px) {
+    @media (max-width: 720px){   nav a {
+        visibility: hidden;
+    }
+    body {
+        background-color: #c6b366;
+    }
+    h1 a {
+        font-size: 35px;
+        text-indent: 5px;
+    }
+    h2 {
+        font-size: 20px;
+        font-family: "Lucida Handwriting";
+        color: black;
+        text-align: right;
+        text-indent: 100px;
+        padding-right: 15px;
+        word-spacing: 10px;
+    }
+    #right {
+        float: right;
+        height: 200px;
+    }
+    .menu {
+        display: block;
+    }
+    .menu ul {
+        display: none;
+        list-style-type: none;
+        padding-left: 0;
+        width: 225px;
+    }
+    .menu:active ul {
+        display: block;
+    }
+    .menu:focus ul {
+        display: block;
+    }
+    .menu li {
+        background-color: #8e9294;
+        border-bottom: 1px solid black
+    }
+    .menu a {
+        border: none;
+    }
+    .pagename {
+        text-align: left;
+        font-size: 35px;
+        color: black;
+        text-indent: 35px;
+        text-decoration: none;
+    }
+    .left {
+        font-size: 20px;
+    }
+    blockquote {
+        clear: both;
+    }
+    iframe {
+        width: 450px;
+        height: 250px;
+    }
+    .pagename {
+        margin-top: 20px;
+    }}
+    }
+    @media (min-width: 640px) {
         nav a {
             visibility: hidden;
         }
