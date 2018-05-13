@@ -163,25 +163,6 @@ blockquote {
     overflow-x: hidden;}
 h1 a{font-family: 'Lucida Handwriting';}}
 @media (min-width: 1360px) {
-    body {
-        background-color: #c6b366;
-    }
-    nav a {
-        font-size: 140%;
-        margin: 1.7%
-    }
-    h1 a {
-        font-size: 55px;
-        text-indent: 5px;
-        font-family: 'Impact';
-    }
-    iframe {
-        width: 600px;
-        height: 400px;
-    }
-}
-
-@media (max-width: 1024px) {
     nav a {
         visibility: hidden;
     }
@@ -203,7 +184,7 @@ h1 a{font-family: 'Lucida Handwriting';}}
     }
     #right {
         float: right;
-        height: 300px;
+        height: 200px;
     }
     .menu {
         display: block;
@@ -220,23 +201,22 @@ h1 a{font-family: 'Lucida Handwriting';}}
     .menu:focus ul {
         display: block;
     }
-    .left {
-        font-size: 30px;
-    }
     .menu li {
         background-color: #8e9294;
-        border-bottom: 1px solid black;
-        font-size: 20px;
+        border-bottom: 1px solid black
     }
     .menu a {
         border: none;
     }
     .pagename {
         text-align: left;
-        font-size: 45px;
+        font-size: 35px;
         color: black;
         text-indent: 35px;
         text-decoration: none;
+    }
+    .left {
+        font-size: 20px;
     }
     blockquote {
         clear: both;
